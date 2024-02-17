@@ -58,7 +58,7 @@ global.read_status_from =  process.env.READ_STATUS_FROM  ||  "All";
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: VENOWOLF MD Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS : process.env.PREFIX || "ß",
   BRANCH : process.env.BRANCH   || "main",
@@ -84,9 +84,9 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "VENOWOLF",
 
-
+antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '212' : process.env.FAKE_COUNTRY_CODE
 
 };
 
